@@ -22,10 +22,10 @@ This is the original image that the user uploads:
 
 when the user uses the Simulation Filter, the image will be like this:
 <div>
- <img src = "simulatorPic.png" width = "500" height = "500">
+ <img src = "simulatorPic.png" width = "600" height = "300">
 <div>
 
 and when the user uses the Corrector Filter, the image will be like this:
 <div>
- <img src = "correctorPic.png" width = "500" height = "500">
+ <img src = "correctorPic.png" width = "600" height = "300">
 <div>
