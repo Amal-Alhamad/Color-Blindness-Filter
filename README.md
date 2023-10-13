@@ -16,5 +16,5 @@ Finally, the post-processed image is presented to the user, delivering an improv
 
 if the user upload this image
 <div>
-  <img src = "OriginalPic.png" wedith = "100">
+  <img src = "OriginalPic.png" width = "100" height = "100">
 </div>
