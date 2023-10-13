@@ -21,9 +21,8 @@ This is the original image that the user uploads:
 
 
 
-<br>
 
-when the user uses the Simulation Filter, the image will be like this:
+When the user uses the Simulation Filter, the image will be like this:
 <div>
  <img src = "simulatorPic.png" width = "600" height = "300">
 <div>
@@ -31,7 +30,7 @@ when the user uses the Simulation Filter, the image will be like this:
 
 
 
-and when the user uses the Corrector Filter, the image will be like this:
+And when the user uses the Corrector Filter, the image will be like this:
 <div>
  <img src = "correctorPic.png" width = "600" height = "300">
 <div>
