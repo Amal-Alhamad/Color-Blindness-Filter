@@ -1,0 +1,86 @@
+
+<!DOCTYPE html> 
+<html>
+    
+  <head>
+    <meta chart="UTF-8">
+     <title> Color-Blind Filters </title>
+     <link href= 'CssWeb.css' type='text/css' rel='stylesheet'/>
+  </head> 
+  
+
+  <body>
+        <header> <!-- this is a header-->
+          <div id="logo"> <!-- Here logo of the website-->
+            <img src="logo1.png" width="120" height="120"
+            alt="logo" />
+          </div>
+
+          <div id="titel"> <!-- titel of the website-->
+              <p><h1>  Color Blind Filters </h1></p>
+          </div> 
+          <br>
+          <br>
+
+          <div >
+            <nav id="navi" > <!-- this is a navigation of index page-->
+                <a href="S_page.html">SIMULATION </a> <!-- this is for index page-->
+                <a href="index.html">HOME </a> <!-- this is for  page 4-->
+                <a href="C_page.html">CORRECTION</a><!-- this is for contact us page-->
+            </nav>
+        </div>
+        </header>
+
+            <section> <!--First <section> element-->
+              
+                <article><!-- artical #1  -->
+                  <div id="descripBackgroundPic"><!-- P from paragraph-->
+                    <p>
+                      <br>
+                      <h3> 
+                        Here, you can upload any image you want to correct it, and then choose 
+                        the type of color blindness you want.
+                     <!--   <br> remove -->
+                    </h3></p>
+                  </div>
+                     <!--   <br> remove -->
+                    </article>
+                     <!--   <br> remove -->
+                     <!--   <br> remove -->
+
+            </section>
+            <form>
+              <p> Choose the typy of Color-blind:</p>
+        
+              <div id="option-deuteranopia">
+                <input id="radio-1" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-1" class="radio-custom-label">Green-Blind / Deuteranopia</label>
+              </div>
+        
+              <div id="option-protanopia">
+                <input id="radio-2" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-2" class="radio-custom-label">Red-Blind / Protanopia</label>
+              </div>
+        
+              <div id="option-tritanopia">
+                <input id="radio-3" class="radio-custom" name="radio-group" type="radio" />
+                <label for="radio-3" class="radio-custom-label">Blue-Blind / Tritanopia</label>
+              </div>
+        
+               <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+               <p><label for="file" style="cursor: pointer;"> Click here to upload your image </label></p>
+               <canvas id="canvas" width="400" height="300"></canvas>
+            </form>
+
+            </div>
+        
+  </body>
+  <script>
+    var loadFile = function(event) {
+        var image = document.getElementById('canvas');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    };
+    </script>
+    
+  <script src="./corrector/LMS.js"></script>
+</html>
