@@ -10,3 +10,11 @@ The operation of the corrector filter is succinctly elucidated as follows:
 The corrector filter begins by extracting the RGB values from the input image.
 Subsequently, the corrector undertakes a comprehensive image processing operation, which is contingent upon the specific type of color blindness selected. This processing is informed by the LMS algorithm, ensuring the accurate and tailored correction of color perception.
 Finally, the post-processed image is presented to the user, delivering an improved and more discernible representation of the visual content.
+
+
+## Example:
+
+if the user upload this image
+<div>
+  <img src = "OriginalPic.png" wedith = "100">
+</div>
