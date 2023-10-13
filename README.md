@@ -27,5 +27,5 @@ when the user uses the Simulation Filter, the image will be like this:
 
 and when the user uses the Corrector Filter, the image will be like this:
 <div>
- <img src = "simulatorPic.png" width = "200" height = "200">
+ <img src = "correctorPic.png" width = "200" height = "200">
 <div>
