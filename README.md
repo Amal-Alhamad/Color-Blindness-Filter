@@ -20,10 +20,16 @@ This is the original image that the user uploads:
 </div>
 
 
+
+<br>
+
 when the user uses the Simulation Filter, the image will be like this:
 <div>
  <img src = "simulatorPic.png" width = "600" height = "300">
 <div>
+
+
+
 
 and when the user uses the Corrector Filter, the image will be like this:
 <div>
