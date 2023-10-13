@@ -16,7 +16,7 @@ Finally, the post-processed image is presented to the user, delivering an improv
 
 This is the original image that the user uploads:
 <div>
-  <img src = "OriginalPic.png" width = "1000" height = "900">
+  <img src = "OriginalPic.png" width = "1000" height = "100">
 </div>
 
 
