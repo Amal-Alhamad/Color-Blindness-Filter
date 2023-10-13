@@ -14,7 +14,15 @@ Finally, the post-processed image is presented to the user, delivering an improv
 
 ## Example:
 
-if the user upload this image
+This is the original image that the user uploads:
 <div>
-  <img src = "OriginalPic.png" width = "100" height = "100">
+  <img src = "OriginalPic.png" width = "200" height = "200">
 </div>
+
+
+when the user uses the Simulation Filter, the image will be like this:
+ <img src = "simulatorPic.png" width = "200" height = "200">
+
+
+and when the user uses the Corrector Filter, the image will be like this:
+ <img src = "simulatorPic.png" width = "200" height = "200">
