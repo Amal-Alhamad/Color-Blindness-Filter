@@ -2,8 +2,10 @@
 
 
 ## Hello everyone,
-Our project encompasses two distinct components. The initial facet involves the implementation of a simulation filter designed to provide users with a simulation of the visual experience of individuals with color vision deficiencies, thereby fostering awareness among developers, designers, and other stakeholders regarding the potential impact on this user group.
-The second aspect of the project entails the development and deployment of a color correction filter. This filter serves the purpose of enhancing color discrimination for individuals affected by color vision deficiencies, while also considering the specific type of color blindness exhibited by the user. 
+Our project aims to design, develop, and test a Corrector filter algorithm that can be applied to web page images. 
+The primary objective of this algorithm is to enhance color distinction for individuals with color blindness, 
+taking into account the specific type of color blindness they experience.
+
 
 The operation of the corrector filter is succinctly elucidated as follows:
 
@@ -19,16 +21,6 @@ This is the original image that the user uploads:
   <img src = "OriginalPic.png" width = "600" height = "300">
 </div>
 ...
-
-
-
-When the user uses the Simulation Filter, the image will be like this:
-<div>
- <img src = "simulatorPic.png" width = "600" height = "300">
-<div>
-...
-
-
 
 
 And when the user uses the Corrector Filter, the image will be like this:
