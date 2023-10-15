@@ -23,7 +23,19 @@ This is the original image that the user uploads:
 ...
 
 
-And when the user uses the Corrector Filter, the image will be like this:
+And when the user uses the Corrector Filter and choose (Green-Blind / Deuteranopia) type, the image will be like this:
 <div>
  <img src = "correctorPic.png" width = "600" height = "300">
+<div>
+...
+
+when the user uses the Corrector Filter and choose (Red-Blind / Protanopia) type, the image will be like this:
+<div>
+ <img src = "ProtanopiaFilterPic.png" width = "600" height = "300">
+<div>
+...
+
+And when the user uses the Corrector Filter and choose (Blue-Blind / Tritanopia) type, the image will be like this:
+<div>
+ <img src = "TritanopiaFilterPic.png" width = "600" height = "300">
 <div>
